@@ -1,0 +1,40 @@
+{
+    "name": "medz/laravel-jpush-notification-channel",
+    "keywords": ["laravel", "push", "notification", "php"],
+    "description": "JPush for Laravel notification channel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seven Du",
+            "email": "shiweidu@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Medz\\Laravel\\Notifications\\JPush\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Medz\\Tests\\Laravel\\Notifications\\JPush\\": "tests/"
+        }
+    },
+    "require": {
+        "jpush/jpush": "^3.6"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^7.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Medz\\Laravel\\Notifications\\JPush\\ServiceProvider"
+            ]
+        }
+    }
+}
