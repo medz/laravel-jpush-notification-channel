@@ -4,9 +4,7 @@ declare(strict_types=1);
 
 namespace Medz\Laravel\Notifications\JPush;
 
-use JPush\PushPayload;
-
-class Message
+class Message implements Contracts\PushPayloadMakeable
 {
     const IOS = 'iOS';
     const ANDROID = 'Android';
@@ -83,10 +81,9 @@ class Message
 
     /**
      * Make send params.
-     * @param \JPush\PushPayload $payload
-     * @return \JPush\PushPayload
+     * @param \Medz\Laravel\Notifications\JPush\PushPayload $payload
      */
-    public function make(PushPayload $payload): PushPayload
+    public function make(PushPayload $payload)
     {
         if ($this->alert) {
             $payload->setNotificationAlert($this->alert);
