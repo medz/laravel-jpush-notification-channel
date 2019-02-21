@@ -40,7 +40,7 @@ class Channel
             $message = new Message($message);
         }
 
-        $payload = new Utils\PushPayload($this->client->push());
+        $payload = new PushPayload($this->client->push());
         $payload->make($to);
         $payload->make($message);
         $payload->options([]);
