@@ -43,7 +43,6 @@ class Channel
         $payload = new PushPayload($this->client->push());
         $payload->make($to);
         $payload->make($message);
-        $payload->options([]);
 
         try {
             $payload->send();

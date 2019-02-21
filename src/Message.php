@@ -29,6 +29,12 @@ class Message implements Contracts\PushPayloadMakeable
     protected $notifications = [];
 
     /**
+     * Push options.
+     * @var array
+     */
+    protected $options = [];
+
+    /**
      * Create a push message.
      * @param null|string $alert
      */
@@ -80,6 +86,17 @@ class Message implements Contracts\PushPayloadMakeable
     }
 
     /**
+     * Set push options.
+     * @param array $options
+     */
+    public function setOptions(array $options)
+    {
+        $this->options = $options;
+
+        return $this;
+    }
+
+    /**
      * Make send params.
      * @param \Medz\Laravel\Notifications\JPush\PushPayload $payload
      */
@@ -113,7 +130,8 @@ class Message implements Contracts\PushPayloadMakeable
                     break;
             }
         }
+        $payload->options($this->options);
 
-        return $payload;
+        return $this;
     }
 }
