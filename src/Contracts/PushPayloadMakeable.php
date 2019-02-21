@@ -8,5 +8,9 @@ use Medz\Laravel\Notifications\JPush\PushPayload;
 
 interface PushPayloadMakeable
 {
+    /**
+     * Make push payload.
+     * @param \Medz\Laravel\Notifications\JPush\PushPayload $payload
+     */
     public function make(PushPayload $payload);
 }
