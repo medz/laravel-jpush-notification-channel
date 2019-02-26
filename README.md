@@ -92,7 +92,7 @@ use Medz\Laravel\Notifications\JPush\Message as JPushMessage;
 
 class CommentNotification extends Notification
 {
-    public function toJpush($notifiable): JPushMessage
+    public function toJpush($notifiable)
     {
         $message = new JPushMessage();
         // TODO
@@ -127,6 +127,8 @@ class CommentNotification extends Notification
     }
 }
 ```
+
+> `toJpush` 方法需要返回一个 `Medz\Laravel\Notifications\JPush\Message` 对象实例！
 
 完成上面的配置后，就可以推送了，记得在 `via` 方法中返回 `jpush` 这个值哈，例如：
 
