@@ -19,6 +19,28 @@ composer require medz/laravel-jpush-notification-channel
 
 > 包中依赖了匹配的 `jpush/jpush` 依赖版本为 `^3.6`，你已经依赖了更低版本的不兼容版本包，使用的时候要小心了！
 
+## 配置
+
+在 `config/services.php` 中进行如下配置：
+
+```php
+return [
+    'jpush' => [
+        'app_key' => env('JPUSH_APP_KEY', ''),
+        'master_secret' => env('JPUSH_MASTER_SECRET', ''),
+        'apns_production' => env('JPUSH_APNS_PRODUCTION', false),
+    ],
+]
+```
+
+然后在 `.env` 文件中进行配置：
+
+```
+JPUSH_APP_KEY=
+JPUSH_MASTER_SECRET=
+JPUSH_APNS_PRODUCTION=
+```
+
 ## 使用
 
 我们已**用户为例**，这里使用 `laravel/laravel` 创建的默认应用模型位置。
