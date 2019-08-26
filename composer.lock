@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "jpush/jpush",
-            "version": "v3.6.3",
+            "version": "v3.6.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jpush/jpush-api-php-client.git",
-                "reference": "ac57db4f70a30c8856e717da9fc200ad2d1f1c8c"
+                "reference": "2ebd48f083f0dbd60ee4fe25616a50301138a4d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jpush/jpush-api-php-client/zipball/ac57db4f70a30c8856e717da9fc200ad2d1f1c8c",
-                "reference": "ac57db4f70a30c8856e717da9fc200ad2d1f1c8c",
+                "url": "https://api.github.com/repos/jpush/jpush-api-php-client/zipball/2ebd48f083f0dbd60ee4fe25616a50301138a4d5",
+                "reference": "2ebd48f083f0dbd60ee4fe25616a50301138a4d5",
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -46,14 +46,14 @@
             "authors": [
                 {
                     "name": "JPush",
+                    "role": "Developer",
                     "email": "support@jpush.cn",
-                    "homepage": "https://www.jpush.cn/",
-                    "role": "Developer"
+                    "homepage": "https://www.jpush.cn/"
                 }
             ],
             "description": "JPush API PHP Client",
             "homepage": "https://github.com/jpush/jpush-api-php-client",
-            "time": "2018-12-20T08:39:05+00:00"
+            "time": "2019-05-30T09:52:14+00:00"
         }
     ],
     "packages-dev": [
@@ -72,7 +72,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -132,7 +132,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -186,7 +186,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -257,7 +257,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -311,7 +311,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -340,18 +340,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpeople.de"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
@@ -372,7 +372,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -393,18 +393,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpeople.de"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library for handling version information and constraints",
@@ -425,7 +425,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -485,7 +485,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -542,7 +542,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -595,7 +595,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -664,7 +664,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -705,8 +705,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
@@ -733,7 +733,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -762,8 +762,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "FilterIterator implementation that filters files based on a list of suffixes.",
@@ -789,7 +789,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -810,8 +810,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Simple template engine.",
@@ -836,7 +836,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -865,8 +865,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Utility class for timing",
@@ -891,7 +891,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -946,7 +946,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1008,8 +1008,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "The PHP Unit Testing framework.",
@@ -1036,7 +1036,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1087,7 +1087,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1157,7 +1157,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1219,7 +1219,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1278,7 +1278,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1351,7 +1351,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1408,7 +1408,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1461,7 +1461,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1512,7 +1512,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1571,7 +1571,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1619,7 +1619,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1645,8 +1645,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
@@ -1668,7 +1668,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1732,7 +1732,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -1756,8 +1756,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
@@ -1778,7 +1778,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]

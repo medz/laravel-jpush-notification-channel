@@ -139,6 +139,12 @@ public function via()
 }
 ```
 
+## 使用案例
+
+- ThinkSNS - *：ThinkSNS Plus 系列产品都使用了本驱动为 Laravel 应用推送用户通知
+    - 项目主页：[slimkit/plus](https://github.com/slimkit/plus)
+    - 代码示例：[Comment.php](https://github.com/slimkit/plus/blob/master/app/Notifications/Comment.php#L68) 💡: 在 `app/Notifications` 下有大多数示例。
+
 ## License
 
 这个包采用 MIT License 开源。
