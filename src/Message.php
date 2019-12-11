@@ -12,7 +12,7 @@ class Message implements Contracts\PushPayloadMakeable
 
     /**
      * Simple alert.
-     * @var string
+     * @var string|array
      */
     protected $alert;
 
@@ -36,24 +36,27 @@ class Message implements Contracts\PushPayloadMakeable
 
     /**
      * Create a push message.
-     * @param null|string $alert
+     * @param null|string|array $alert
      */
-    public function __construct(?string $alert = null)
+    public function __construct($alert = null)
     {
-        if (is_string($alert)) {
+        if (is_string($alert) || is_array($alert)) {
             $this->setAlert($alert);
         }
     }
 
     /**
      * Set simple alert.
-     * @param string $alert
+     * @param string|array $alert
      */
     public function setAlert(string $alert)
     {
-        $this->alert = $alert;
+        if (is_string($alert) || is_array($alert)) {
+            $this->alert = $alert;
+            return $this;
+        }
 
-        return $this;
+        throw new \Exception('Alert 只允许字符串或者数组');
     }
 
     /**
@@ -72,11 +75,15 @@ class Message implements Contracts\PushPayloadMakeable
     /**
      * Set notifications.
      * @param string $platform static::<IOS|ANDROID|WP>
-     * @param string $alert
+     * @param string|array $alert
      * @param array $options
      */
-    public function setNotification(string $platform, string $alert, array $options = [])
+    public function setNotification(string $platform, $alert, array $options = [])
     {
+        if (!is_array($alert) || !is_array($alert)) {
+            throw new \Exception('Alert 只允许字符串或者数组');
+        }
+
         $this->notifications[$platform] = [
             'alert' => $alert,
             'options' => $options,
