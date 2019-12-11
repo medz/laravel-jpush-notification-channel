@@ -43,11 +43,7 @@ class Channel
         $payload = new PushPayload($this->client->push());
         $payload->make($to);
         $payload->make($message);
-
-        try {
-            $payload->send();
-        } catch (\Throwable $th) {
-            return;
-        }
+        
+        return $payload->send();
     }
 }
