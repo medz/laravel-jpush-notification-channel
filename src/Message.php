@@ -80,7 +80,7 @@ class Message implements Contracts\PushPayloadMakeable
      */
     public function setNotification(string $platform, $alert, array $options = [])
     {
-        if (!is_array($alert) || !is_array($alert)) {
+        if (!is_array($alert) && !is_array($alert)) {
             throw new \Exception('Alert 只允许字符串或者数组');
         }
 
